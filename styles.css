@@ -1,0 +1,86 @@
+
+body {
+    text-align: center;
+    
+    font-style: normal;
+    font-family: "Happy Monkey", sans-serif;
+    color: aliceblue;
+    
+    margin: 0;
+    background: linear-gradient(#66b2b2,#006666);
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 5px #000000;
+}
+
+.gift {
+    margin-top: 50px;
+}
+
+.gifttitle {
+    margin-bottom: 10px;
+}
+
+.gifthint {
+    margin-top: 0;
+}
+
+.giftimg {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("giftcover.jpg");
+    background-size: cover;
+}
+
+#giftimg-happy:hover {
+    background-image: url("war.jpeg");
+    background-size: cover;
+}
+
+#giftimg-hot:hover {
+    background-image: url("war.jpeg");
+    background-size: cover;
+}
+
+#giftimg-genius:hover {
+    background-image: url("war.jpeg");
+    background-size: cover;
+}
+
+#giftimg-badass:hover {
+    background-image: url("war.jpeg");
+    background-size: cover;
+}
+
+#giftimg-cheers:hover {
+    background-image: url("war.jpeg");
+    background-size: cover;
+    height: 200px;
+}
+
+#giftimg-cheers {
+    height: 200px;
+}
+
+#profile {
+    border-radius: 50%;
+    border: 5px solid #d470a2;
+    width: 150px;
+    margin-bottom: 0.25rem;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    background-color: #d470a2;
+    padding: 0.5rem 0.35rem;
+    border-radius: 0.25rem;
+}
